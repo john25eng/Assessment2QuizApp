@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904989199158",
+    "project_id": "assessment2quizapp-gc",
+    "storage_bucket": "assessment2quizapp-gc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904989199158:android:3535f6f2563dba49b88197",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjXtFwp_ZY0h8COlOfoEZKiorL7sicYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
