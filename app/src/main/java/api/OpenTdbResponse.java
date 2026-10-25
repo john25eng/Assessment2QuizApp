@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package api;
 
 import com.google.gson.annotations.SerializedName;
 

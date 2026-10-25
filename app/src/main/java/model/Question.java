@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package model;
 
 import java.util.List;
 

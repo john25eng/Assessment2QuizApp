@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package ui;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.quizapp.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -28,6 +29,9 @@ import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.HashMap;
 import java.util.Map;
+
+import adapter.TournamentAdapter;
+import model.Tournament;
 
 public class AdminHomeActivity extends AppCompatActivity {
 

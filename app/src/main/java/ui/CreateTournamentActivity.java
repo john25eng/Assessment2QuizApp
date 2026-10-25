@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package ui;
 
 import android.app.DatePickerDialog;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.HtmlCompat;
 
+import com.example.quizapp.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -22,6 +23,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import api.ApiQuestion;
+import api.OpenTdbResponse;
+import api.TriviaClient;
+import model.Question;
+import model.Tournament;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

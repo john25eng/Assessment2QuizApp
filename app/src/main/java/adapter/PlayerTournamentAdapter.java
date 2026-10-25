@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,11 +9,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.quizapp.R;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+
+import model.Tournament;
 
 public class PlayerTournamentAdapter extends RecyclerView.Adapter<PlayerTournamentAdapter.VH> {
 

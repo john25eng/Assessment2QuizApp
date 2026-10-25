@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package ui;
 
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.quizapp.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -22,6 +23,10 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import adapter.TournamentAdapter;
+import model.Question;
+import model.Tournament;
 
 public class QuizActivity extends AppCompatActivity {
 

@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
-            android:name=".MainActivity"
+            android:name="ui.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -24,19 +24,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AdminHomeActivity"
+            android:name="ui.AdminHomeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".PlayerHomeActivity"
+            android:name="ui.PlayerHomeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".CreateTournamentActivity"
+            android:name="ui.CreateTournamentActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".QuizActivity"
+            android:name="ui.QuizActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
