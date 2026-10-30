@@ -119,7 +119,7 @@ public class CreateTournamentActivity extends AppCompatActivity {
                     public void onResponse(Call<OpenTdbResponse> call, Response<OpenTdbResponse> response) {
                         if (!response.isSuccessful() || response.body() == null) {
                             setLoading(false);
-                            toast("Too many requests, wait 5 seconds and try again");
+                            toast("Question server unavailable (code " + response.code() + "), try again later");
                             return;
                         }
                         OpenTdbResponse body = response.body();
@@ -165,7 +165,7 @@ public class CreateTournamentActivity extends AppCompatActivity {
                     @Override
                     public void onFailure(Call<OpenTdbResponse> call, Throwable t) {
                         setLoading(false);
-                        toast("Network error");
+                        toast("Network error: " + t.getMessage());
                     }
                 });
     }
